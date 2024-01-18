@@ -1,10 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0);
+import Layout from "./Layouts/Layout.jsx";
+import HomePage from "./components/template/HomePage.jsx";
 
+function App() {
   return (
-    <>
-      <h1>Crypto App</h1>
-    </>
+    <Layout>
+      <HomePage />
+    </Layout>
   );
 }
 
